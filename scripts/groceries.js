@@ -9,6 +9,49 @@ var products = [
     price: 1.99,
   },
   {
+    name: "brocoli",
+    vegetarian: true,
+    glutenFree: true,
+    price: 1.99,
+  },
+  {
+    name: "brocoli",
+    vegetarian: true,
+    glutenFree: true,
+    price: 1.99,
+  },
+  {
+    name: "brocoli",
+    vegetarian: true,
+    glutenFree: true,
+    price: 1.99,
+  },
+  {
+    name: "brocoli",
+    vegetarian: true,
+    glutenFree: true,
+    price: 1.99,
+  },
+  {
+    name: "brocoli",
+    vegetarian: true,
+    glutenFree: true,
+    price: 1.99,
+  },
+  {
+    name: "brocoli",
+    vegetarian: true,
+    glutenFree: true,
+    price: 1.99,
+  },
+  {
+    name: "brocoli",
+    vegetarian: true,
+    glutenFree: true,
+    price: 1.99,
+  },
+
+  {
     name: "bread",
     vegetarian: true,
     glutenFree: false,
