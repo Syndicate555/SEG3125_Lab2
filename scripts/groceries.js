@@ -117,5 +117,3 @@ function getTotalPrice(chosenProducts) {
   }
   return totalPrice;
 }
-
-console.log(products[0].price);
