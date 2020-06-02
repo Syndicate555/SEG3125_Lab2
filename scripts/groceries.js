@@ -33,22 +33,22 @@ var products = [
     price: 0.99,
   },
   {
-    name: "brocoli",
-    vegetarian: true,
+    name: "tuna",
+    vegetarian: false,
     glutenFree: true,
-    price: 1.99,
+    price: 0.5,
   },
   {
-    name: "brocoli",
-    vegetarian: true,
+    name: "chicken",
+    vegetarian: false,
     glutenFree: true,
-    price: 1.99,
+    price: 2.99,
   },
   {
-    name: "brocoli",
+    name: "milk",
     vegetarian: true,
     glutenFree: true,
-    price: 1.99,
+    price: 0.99,
   },
 
   {
