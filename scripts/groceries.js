@@ -8,7 +8,7 @@ var products = [
     glutenFree: true,
     organic: true,
     price: 1.99,
-    VegetarianAndGluten: true,
+    VegetarianAndGlutenFree: true,
   },
   {
     name: "banana",
