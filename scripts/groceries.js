@@ -73,6 +73,7 @@ var products = [
     organic: true,
     glutenFree: false,
     price: 2.35,
+    VegetarianAndGluten: false,
   },
   {
     name: "salmon",
@@ -80,6 +81,7 @@ var products = [
     organic: true,
     glutenFree: true,
     price: 10.0,
+    VegetarianAndGluten: false,
   },
 ];
 
