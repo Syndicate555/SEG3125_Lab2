@@ -21,8 +21,10 @@ body {
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(24, 24, 24);
   background-color: #f1f1f1;
+  content: initial;
+  width: max-content;
 }
 
 /* Style the buttons that are used to open the tab content */
