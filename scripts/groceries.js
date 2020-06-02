@@ -48,7 +48,7 @@ var products = [
     organic: true,
     glutenFree: true,
     price: 0.5,
-    VegetarianAndGluten: false,
+    VegetarianAndGlutenFree: false,
   },
   {
     name: "chicken",
@@ -56,7 +56,7 @@ var products = [
     organic: true,
     glutenFree: true,
     price: 2.99,
-    VegetarianAndGluten: false,
+    VegetarianAndGlutenFree: false,
   },
   {
     name: "milk",
@@ -64,7 +64,7 @@ var products = [
     organic: true,
     glutenFree: true,
     price: 0.99,
-    VegetarianAndGluten: true,
+    VegetarianAndGlutenFree: true,
   },
 
   {
@@ -73,7 +73,7 @@ var products = [
     organic: true,
     glutenFree: false,
     price: 2.35,
-    VegetarianAndGluten: false,
+    VegetarianAndGlutenFree: false,
   },
   {
     name: "salmon",
@@ -81,7 +81,7 @@ var products = [
     organic: true,
     glutenFree: true,
     price: 10.0,
-    VegetarianAndGluten: false,
+    VegetarianAndGlutenFree: false,
   },
 ];
 
