@@ -101,7 +101,7 @@ function restrictListProducts(prods, restriction) {
       restriction == "VegetarianAndGlutenFree" &&
       prods[i].VegetarianAndGlutenFree == true
     ) {
-      product_names.push(prod[i]);
+      product_names.push(prods[i]);
     }
   }
   return product_names;
