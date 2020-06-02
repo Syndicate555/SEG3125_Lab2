@@ -6,6 +6,7 @@ var products = [
     name: "brocoli",
     vegetarian: true,
     glutenFree: true,
+    organic: true,
     price: 1.99,
   },
   {
