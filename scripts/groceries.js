@@ -34,7 +34,7 @@ var products = [
     name: "pasta",
     vegetarian: true,
     organic: true,
-    glutenFree: true,
+    glutenFree: false,
     price: 0.99,
   },
   {
@@ -82,11 +82,11 @@ function restrictListProducts(prods, restriction) {
   let product_names = [];
   for (let i = 0; i < prods.length; i += 1) {
     if (restriction == "Vegetarian" && prods[i].vegetarian == true) {
-      product_names.push(prods[i].name);
+      product_names.push(prods[i]);
     } else if (restriction == "GlutenFree" && prods[i].glutenFree == true) {
-      product_names.push(prods[i].name);
+      product_names.push(prods[i]);
     } else if (restriction == "None") {
-      product_names.push(prods[i].name);
+      product_names.push(prods[i]);
     }
   }
   return product_names;
@@ -102,3 +102,5 @@ function getTotalPrice(chosenProducts) {
   }
   return totalPrice;
 }
+
+console.log(products[0].price);
