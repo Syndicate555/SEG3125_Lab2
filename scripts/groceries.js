@@ -40,6 +40,7 @@ var products = [
   {
     name: "tuna",
     vegetarian: false,
+    organic: true,
     glutenFree: true,
     price: 0.5,
   },
