@@ -48,6 +48,7 @@ var products = [
     organic: true,
     glutenFree: true,
     price: 0.5,
+    VegetarianAndGluten: true,
   },
   {
     name: "chicken",
