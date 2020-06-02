@@ -1,12 +1,10 @@
 /* This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp> */
 
 /* Style the tab */
-main {
-  text-align: center;
-}
-body {
-  margin-bottom: 60px;
-  background: lightblue;
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
 
 .footer {
@@ -17,14 +15,6 @@ body {
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
-}
-
-.tab {
-  overflow: hidden;
-  border: 1px solid rgb(24, 24, 24);
-  background-color: #f1f1f1;
-  content: initial;
-  width: max-content;
 }
 
 /* Style the buttons that are used to open the tab content */
