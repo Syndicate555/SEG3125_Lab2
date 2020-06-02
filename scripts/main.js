@@ -47,7 +47,9 @@ function populateListProductChoices(slct1, slct2) {
 
     // create a label for the checkbox, and also add in HTML DOM
     var label = document.createElement("label");
+    var label2 = document.createElement("label2");
     label.htmlFor = productName;
+    label2.htmlFor = productPrice;
     label.appendChild(document.createTextNode(productName));
     s2.appendChild(label);
 
