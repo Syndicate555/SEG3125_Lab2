@@ -48,7 +48,7 @@ var products = [
     organic: true,
     glutenFree: true,
     price: 0.5,
-    VegetarianAndGluten: true,
+    VegetarianAndGluten: false,
   },
   {
     name: "chicken",
@@ -56,6 +56,7 @@ var products = [
     organic: true,
     glutenFree: true,
     price: 2.99,
+    VegetarianAndGluten: true,
   },
   {
     name: "milk",
