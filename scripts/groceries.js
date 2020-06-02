@@ -32,7 +32,7 @@ var products = [
     organic: true,
     glutenFree: true,
     price: 0.69,
-    VegetarianAndGluten: true,
+    VegetarianAndGlutenFree: true,
   },
   {
     name: "pasta",
@@ -40,7 +40,7 @@ var products = [
     organic: true,
     glutenFree: false,
     price: 0.99,
-    VegetarianAndGluten: false,
+    VegetarianAndGlutenFree: false,
   },
   {
     name: "tuna",
