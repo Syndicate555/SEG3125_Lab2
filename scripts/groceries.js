@@ -47,12 +47,14 @@ var products = [
   {
     name: "chicken",
     vegetarian: false,
+    organic: true,
     glutenFree: true,
     price: 2.99,
   },
   {
     name: "milk",
     vegetarian: true,
+    organic: true,
     glutenFree: true,
     price: 0.99,
   },
@@ -60,12 +62,14 @@ var products = [
   {
     name: "bread",
     vegetarian: true,
+    organic: true,
     glutenFree: false,
     price: 2.35,
   },
   {
     name: "salmon",
     vegetarian: false,
+    organic: true,
     glutenFree: true,
     price: 10.0,
   },
