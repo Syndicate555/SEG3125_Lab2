@@ -97,6 +97,11 @@ function restrictListProducts(prods, restriction) {
       product_names.push(prods[i]);
     } else if (restriction == "None") {
       product_names.push(prods[i]);
+    } else if (
+      restriction == "VegetarianAndGlutenFree" &&
+      prods[i].VegetarianAndGlutenFree == true
+    ) {
+      product_names.push(prod[i]);
     }
   }
   return product_names;
