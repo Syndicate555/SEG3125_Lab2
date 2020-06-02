@@ -1,6 +1,9 @@
 /* This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp> */
 
 /* Style the tab */
+main {
+  text-align: center;
+}
 body {
   margin-bottom: 60px;
   background: lightblue;
