@@ -1,3 +1,4 @@
+// grocery list products
 var products = [
   {
     name: "brocoli",
