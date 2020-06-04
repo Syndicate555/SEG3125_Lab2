@@ -83,6 +83,14 @@ var products = [
     price: 10.0,
     VegetarianAndGlutenFree: false,
   },
+  {
+    name: "Atlantic salmon",
+    vegetarian: false,
+    organic: true,
+    glutenFree: true,
+    price: 12.0,
+    VegetarianAndGlutenFree: false,
+  },
 ];
 
 // given restrictions provided, make a reduced list of products
